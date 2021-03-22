@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component library</title>
+    <link href="style.css" rel='stylesheet' />
 </head>
 <body>
 
@@ -17,6 +18,8 @@
   <h1>This is the biggest heading</h1>
   <h2>This is the second biggest heading</h2>
   <p>This is the free flowing and will wrap at the end like a paragrapgh</p>
+  <p>This paragraph will have a 
+      <strong>bold</strong> text</p>
   <small>This is relatively smaller text</small>
 
   <hr>
@@ -24,16 +27,16 @@
   <h2>@container</h2>
 
   <h3>fluid container</h3>
-  <div>This is a fluid container and it will go till end of the page</div>
+  <div class ="container">This is a fluid container and it will go till end of the page</div>
 
-  <h3>fluid container</h3>
-  <div>This is a centered container and it will go till the secified width</div>
+  <h3>center container</h3>
+  <div class ="container container-center">This is a centered container and it will go till the secified width</div>
   
   <hr>
 
   <h2>@links</h2>
-  <a href="/">Primary Link</a>
-  <a href="/">Secondary Link</a>
+  <a class="link link-primary" href="/">Primary Link</a>
+  <a class="link link-secondary" href="/">Secondary Link</a>
 
   <hr>
 
@@ -97,7 +100,7 @@
         <h3>white section</h3>
         <p>This will have white background</p>
     </section>
-
+  
     <section>
         <h3>off white section</h3>
         <p>This will have gray background</p>
