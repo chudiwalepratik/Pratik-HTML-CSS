@@ -4,135 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component library</title>
-    <link href="style.css" rel='stylesheet' />
+    <title>home | Pratik Chudiwale</title>
+    <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-
-  <h1>Welcome to Pratik's component library</h1>
-  <p>I am making a library which would make all my projects look good</p>
-
-  <hr>
-
-  <h2>@typography</h2>
-  <h1>This is the biggest heading</h1>
-  <h2>This is the second biggest heading</h2>
-  <p>This is the free flowing and will wrap at the end like a paragrapgh</p>
-  <p>This paragraph will have a 
-      <strong>bold</strong> text</p>
-  <small>This is relatively smaller text</small>
-
-  <hr>
-
-  <h2>@container</h2>
-
-  <h3>fluid container</h3>
-  <div class ="container">This is a fluid container and it will go till end of the page</div>
-
-  <h3>center container</h3>
-  <div class ="container container-center">This is a centered container and it will go till the secified width</div>
-  
-  <hr>
-
-  <h2>@links</h2>
-  <a class="link link-primary" href="/">Primary Link</a>
-  <a class="link link-secondary" href="/">Secondary Link</a>
-
-  <hr>
-
-  <h2>@lists</h2>
-  <h3>unordered list</h3>
-  <p>This list will not have a bullet</p>
-  <ul class = "list-non-bullet">
-      <li>Item One</li>
-      <li>Item Two</li>
-      <li>Item Three</li>
-
-    </ul>
-
-    <h3> unordered inline list</h3>
-
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Inline Item One</li>
-        <li class="list-item-inline">Inline Item Two</li>
-        <li class ="list-item-inline">Inline Item Three</li>
-    </ul>
-
-    <h3> reverse ordered list</h3>
-
-    <ol reversed>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>bread</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
-
     <nav class ="navigation container">
-        <div class ="nav-brand">iAmBrand</div>
+        <div class ="nav-brand">PratikChudiwale</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
                 <a class="link link-active" href="/">home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">product</a>
+                <a class="link" href="/projects.html">projects</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">about</a>
+                <a class="link" href="/photos.html">photos</a>
             </li>
         </ul>
     </nav>
-
-    <hr>
-
-    <h2>@header</h2>
-    
     <header class="hero">
         <img class="hero-img" src="images/hero-image.svg" />
-        <h1 class = "hero-heading">Pratik Chudiwale <span style="color: var(--primary-color);">the developer</span> </h1>
+        <h1 class = "hero-heading">Pratik Chudiwale <span style="color: var(--primary-color);">the web developer</span> </h1>
 
     </header>
 
-    <hr>
-    <h2>@section</h2>
+    <section class="section ow">
+        <div class ="container container-center"> <h1>technologies</h1>
+            <p><strong>I'm familiar with HTML5, CSS3, Git, C, C++, SQL, Computer Networking, Linux and Basics of Java</strong></p></div>
+       
+    </section>
     <section class="section">
         <div class="container container-center" >
-            <h1>white section</h1>
-            <p>This will have white background</p>
+            <h1>projects</h1>
+            <p><strong>I like to showcase my work in development and you can find it here</strong></p>
+            <a class="link link-primary" href="/">see projects</a>
         </div>
        
     </section>
-  
-    <section class="section ow">
-        <div class ="container container-center"> <h1>off white section</h1>
-            <p>This will have gray background</p></div>
+    
+    <section class="section">
+        <div class="container container-center" >
+            <h1>photos</h1>
+            <p><strong>I love photography ,find my collections of best clicks here</strong></p>
+            <a class="link link-primary" href="/">see photos</a>
+        </div>
        
     </section>
-
-    <hr>
-    <h2>@footer</h2>
+    
 
     <footer class ="footer">
-        <div class ="footer-header">Some small heading inside footer</div>
+        <div class ="footer-header">connect to me socially</div>
         <ul class="social-links list-non-bullet">
             <li class ="list-item-inline"> 
-                <a class="link" href="/">socialone</a>
+                <a class="link" href="https://www.linkedin.com/in/pratik-chudiwale-404620188//">linkedin</a>
             </li>
             <li class ="list-item-inline">
-                <a class="link" href="/">socialtwo</a>
+                <a class="link" href="https://github.com/chudiwalepratik/">github</a>
             </li>
             <li class ="list-item-inline">
-                <a class="link" href="/">socialthree</a>
+                <a class="link" href="https://www.instagram.com/pratikchudiwale/">instagram</a>
             </li>
         </ul>
     </footer>
-
-    
-
-
-      
 
 </body>
 </html>

@@ -82,6 +82,7 @@ border: 1px solid var(--primary-color);
 .hero
 {
     padding: 2rem;
+    padding-top: 5rem;
 }
 .hero .hero-img
 {
@@ -92,7 +93,7 @@ border: 1px solid var(--primary-color);
 .hero .hero-heading
 {
     padding: 1rem;
-    color:rgb(159, 236, 220);
+    color:rgb(6, 145, 117);
     text-align: center;
     
 }
@@ -106,7 +107,7 @@ border: 1px solid var(--primary-color);
 }
 .ow
 {
-    background-color:rgb(159, 236, 220); ;
+    background-color:rgb(176, 226, 205);
 
 }
 /** footer **/
@@ -124,4 +125,9 @@ border: 1px solid var(--primary-color);
 .footer ul
 {
     padding-inline-start: 0px;
+}
+.footer .footer-header
+{
+    font-weight: bold;
+    font-size: large;
 }
